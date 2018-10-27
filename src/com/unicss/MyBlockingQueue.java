@@ -19,6 +19,10 @@ public void run() {
    }
 }
 public static void main(String args[]) {
+
+
+
+    //提交代码测试
    ExecutorService service = Executors.newCachedThreadPool();
    for (int i = 0; i < 10; i++) {
     service.submit(new MyBlockingQueue(i));
